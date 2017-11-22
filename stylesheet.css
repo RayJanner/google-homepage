@@ -1,0 +1,47 @@
+
+#div-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	
+}
+
+#div-left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+}
+
+#div-img {
+	position: absolute;
+	width: 600px;
+	top: 250px;
+	left: 400px;
+	right: 400px;
+
+}
+
+#div-input {
+
+}
+
+#div-buttons {
+	position: absolute;
+	width: 600px;
+	top: 400px;
+	left: 400px;
+	right: 400px;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+li {
+	display: inline;
+}
