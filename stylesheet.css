@@ -1,19 +1,106 @@
-
-#divright {
-	vertical-align: middle;
+a {
+	padding: 20px 10px 20px 10px;
 }
 
-#divleft {
-	vertical-align: middle;
-	display: inline-block;
-}
+/* 
+=============================
+NAVIGATION
+=============================
+*/
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.topnavleft {
+	display: inline;
+    list-style-type: : none;
 	
 }
-li {
+.topnavright {
 	display: inline;
+	list-style-type: none;
+	float: right;
 }
+
+/* 
+=============================
+IMAGE
+=============================
+*/
+
+.googleimg {
+	position: absolute;
+	top: 205px;
+	left: 790px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+
+}
+
+/* 
+=============================
+TEXT BOX
+=============================
+*/
+
+.textbox {
+	position: absolute;
+	top:315px;
+	left: 720px;
+}
+
+
+input[type=text] {
+	width: 420px;
+	height: 40px;
+
+}
+
+/* 
+=============================
+BUTTONS
+=============================
+*/
+
+.buttons {
+	position: absolute;
+	top: 390px;
+	left: 790px;
+}
+.leftbutton {
+	margin-right: 20px;
+}
+
+.rightbutton {
+	margin-left: : 20px;
+}
+
+/* 
+=============================
+Footer
+=============================
+*/
+
+.footer {
+
+	bottom: 0;
+	
+}
+.footerleft {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: inline;
+	list-style-type: none;
+	
+	}
+
+.footerright {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: inline;
+	list-style-type: none;
+	float: right;
+	
+}
+
+
+
