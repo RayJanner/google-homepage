@@ -1,47 +1,106 @@
-
-#div-right {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100px;
-	
+a {
+	padding: 20px 10px 20px 10px;
 }
 
-#div-left {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 200px;
-}
+/* 
+=============================
+NAVIGATION
+=============================
+*/
 
-#div-img {
-	position: absolute;
-	width: 600px;
-	top: 250px;
-	left: 400px;
-	right: 400px;
-
-}
-
-#div-input {
-
-}
-
-#div-buttons {
-	position: absolute;
-	width: 600px;
-	top: 400px;
-	left: 400px;
-	right: 400px;
-
-}
-
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	
-}
-li {
+.topnavleft {
 	display: inline;
+    list-style-type: : none;
+	
 }
+.topnavright {
+	display: inline;
+	list-style-type: none;
+	float: right;
+}
+
+/* 
+=============================
+IMAGE
+=============================
+*/
+
+.googleimg {
+	position: absolute;
+	top: 205px;
+	left: 790px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+
+}
+
+/* 
+=============================
+TEXT BOX
+=============================
+*/
+
+.textbox {
+	position: absolute;
+	top:315px;
+	left: 720px;
+}
+
+
+input[type=text] {
+	width: 420px;
+	height: 40px;
+
+}
+
+/* 
+=============================
+BUTTONS
+=============================
+*/
+
+.buttons {
+	position: absolute;
+	top: 390px;
+	left: 790px;
+}
+.leftbutton {
+	margin-right: 20px;
+}
+
+.rightbutton {
+	margin-left: : 20px;
+}
+
+/* 
+=============================
+Footer
+=============================
+*/
+
+.footer {
+
+	bottom: 0;
+	
+}
+.footerleft {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: inline;
+	list-style-type: none;
+	
+	}
+
+.footerright {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: inline;
+	list-style-type: none;
+	float: right;
+	
+}
+
+
+
